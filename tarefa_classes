@@ -1,0 +1,72 @@
+
+/**
+ * A classe Carro representa um veículo com propriedades básicas
+ * como marca, ano e cor.
+ *
+ * @version 1.0
+ */
+public class Carro {
+    /**
+     * A marca do carro.
+     */
+    private String marca;
+
+    /**
+     * O ano de fabricação do carro.
+     */
+    private int ano;
+
+    /**
+     * A cor do carro.
+     */
+    private String cor;
+
+    /**
+     *
+     * @return marca do carro
+     */
+    public String getMarca() {
+        return marca;
+    }
+
+    /**
+     *
+     * @param marca do carro
+     */
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    /**
+     *
+     * @return ano do carro;
+     */
+    public int getAno() {
+        return ano;
+    }
+
+    /**
+     *
+     * @param ano do carro;
+     */
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    /**
+     *
+     * @return cor do carro;
+     */
+    public String getCor() {
+        return cor;
+    }
+
+    /**
+     *
+     * @param cor do carro;
+     */
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+}
